@@ -17,12 +17,12 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   Future _navigateToMainScreen() async {
-    await Future.delayed(const Duration(seconds: 3)); // Wait for 3 seconds
+    await Future.delayed(const Duration(seconds: 3)); 
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
           builder: (context) =>
-              const HomeScreen()), // Navigate to your main screen
+              const HomeScreen()), 
     );
   }
 

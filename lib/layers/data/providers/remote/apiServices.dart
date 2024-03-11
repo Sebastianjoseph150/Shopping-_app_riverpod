@@ -10,7 +10,6 @@ class ApiService {
       if (response.statusCode == 200) {
         final Map<String, dynamic> responseData = response.data;
 
-        // Extract the list of products from the response data
         final List<Map<String, dynamic>> products = List<Map<String, dynamic>>.from(responseData['products']);
 
         return products;

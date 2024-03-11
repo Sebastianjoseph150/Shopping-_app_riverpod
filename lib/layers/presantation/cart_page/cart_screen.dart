@@ -29,9 +29,7 @@ class CartScreen extends ConsumerWidget {
           backgroundColor: Color.fromARGB(255, 215, 208, 23),
         ),
         body: _buildCartBody(cartItems, subTotal, gstAmount, totalAmount, ref),
-        // bottomNavigationBar: BottomAppBar(
-        //   bax
-        //   child:
+
       ),
     );
   }
