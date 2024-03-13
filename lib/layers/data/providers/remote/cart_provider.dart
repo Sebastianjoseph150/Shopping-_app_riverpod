@@ -42,5 +42,5 @@ class CartNotifier extends StateNotifier<List<CartItem>> {
     return totalAmount;
   }
 
-  // Other methods for calculating total amount, etc.
+ 
 }
